@@ -3,7 +3,6 @@ import requests
 import re
 import urllib.request
 import os
-from http.cookiejar import CookieJar
 import json
 
 def get_soup(url,header):
