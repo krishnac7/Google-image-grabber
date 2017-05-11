@@ -1,8 +1,8 @@
-##Google-image-grabber
+# Google-image-grabber
 
-A python script that can be used to take any google image query and download the first 100 images
+A python script that takes google image query and downloads the first 100 images
 
-###Dependencies:
+### Install Dependencies:
 
 ```
 pip3 install bs4 urllib.request requests
