@@ -4,18 +4,12 @@ import subprocess
 
 try :
     from bs4 import BeautifulSoup
-except ImportError:
-    subprocess.call(['pip3', 'install', 'bs4'])
-    from bs4 import BeautifulSoup
-try :
     import urllib.request
-except ImportError:
-    subprocess.call(['pip3', 'install', 'urllib.request'])
-    import urllib.request
-try :
     import tqdm
 except ImportError:
-    subprocess.call(['pip3', 'install', 'tqdm'])
+    subprocess.call(['pip3', 'install', 'tqdm','urllib3'])
+    from bs4 import BeautifulSoup
+    import urllib.request
     import tqdm
 
 config = {}
